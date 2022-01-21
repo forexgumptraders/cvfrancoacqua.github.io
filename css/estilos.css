@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body
+    {
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333;
+        min-height: 100%;
+        background-color: #e6e6e6;
+
+        
+    }
+
+
+    #sobre-mi{
+      margin-top: -80px;
+    }
+        #experiencia-laboral{
+      margin-top: -80px;
+    }
+
+
+.titulo-seccion
+    {
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-top: 60px;
+    }
+
+.nombre
+     {
+        font-size: 38px;
+        line-height: 25px;
+        text-transform: uppercase;
+     }
+
+.profecion
+
+     {
+        color: #777;
+        font-size: 22px;
+
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+
+p
+    {
+
+        font-size: 12px;
+        color: gray;
+        line-height: 22px;
+        font-weight: 900;
+    }
+
+.dato
+    {   
+
+        color: #333;
+        font-size:  14px;
+        font-weight: 700;
+        text-align: center;
+        display: inline-block;
+        width: 63%;
+        padding-bottom: 8px;
+        padding-top: 8px;
+    }
+
+.titulo
+    {
+      color: black;
+      font-size: 14px;
+      font-weight: 900;
+      text-align: center;
+      display: inline-block;
+      width: 35%;
+      padding-bottom: 8px;
+      padding-top: 8px;
+      background-color: #FFFFFF;
+      border-right: #C7C7C7;
+    }
+
+.titulo-principal
+
+    {
+        border-bottom:2px solid #2271b3;
+        padding-top: 40px;
+        padding-right: 10px;
+        padding-bottom: 2px;
+        padding-left: 40px;
+        position: relative;
+    }
+
+.fechaEstudios{
+  margin-top: -60px;
+}
+
+
+.sobre-mi, .estudios, .experiencia-laboral, .proyectos
+    {
+    padding: 95px 40px;
+    }
+
+/* .hobbies
+
+   {
+    padding: 30px 40px;
+
+   }
+
+   .hobbies {
+    padding-bottom: 400px;
+   }
+
+  .hobbies.li
+  {
+    background-position: 0px;
+    background-size: cover;
+  }*/
+
+
+.nombre
+    {
+       margin-bottom: 0px;
+       margin-top: 0px;
+    }
+
+.profesion
+
+    {
+     margin-bottom: 0px;
+     margin-top: 0px;
+    }
+
+.sobre-mi, .estudios, /*.hobbies,*/ .proyectos
+
+    {
+        margin-bottom:30px;
+        margin-top:30px;
+        margin-right:40px;
+
+        margin-left: 40px;
+    }
+
+    .experiencia-laboral{
+         margin-bottom:30px;
+        margin-top:-38px;
+        margin-right:40px;
+
+        margin-left: 40px;
+    }
+
+    .estudios p, .experiencia-laboral p{
+      font-size: 15px;
+    } 
+
+
+  .perfilCostado{
+    margin-top: 70px;
+  }
+
+  .perfilCostado p{
+    font-size: 15px;
+  }
+
+  .habilidadesCostado{
+    margin-top: 70px;
+  }
+
+  .itemCostado {
+    font-size: 15px;
+  }
+
+#estudios{
+  padding-top: 90px;
+}
+
+
+  a
+    {
+        text-decoration: none;
+    }
+
+.texto-link
+    {
+
+        font-weight: 700;
+        font.size: 12px;
+        line-height: 44px;
+        text-align: right;
+        text-transform: uppercase;
+        color : #85878b;
+        margin: 0px;
+        margin-right: 20px;
+    }
+
+.item
+    {
+        border-bottom: 1px solid #000;
+        padding: 0px;
+        height: 45px;
+    }
+.item-h{
+
+  width: 31%;
+  margin-right: 1%;
+  margin-left: 1%;
+  float: left;
+}
+
+ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+   }
+
+.hiper
+   {
+        background-color: #fff;
+        display: inline-block;
+        width: 100%;
+        line-height: 45px;
+        padding-right: 5px;
+
+        
+   }
+  .hiper:hover
+   {
+     background-color: #2271b3;
+
+
+   }
+
+   .mi
+
+  .hiper div
+
+   {
+     width:30px ;
+    height:30px;
+    float:left;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+   }
+   .mi
+  {
+    background-image: url(../img/manager_115893.png);
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-position: 0px 0px;
+    background-size: cover;
+    margin: 10px 20px;
+
+  }
+
+
+  .book
+   {
+      background-image: url(../img/open-bogok_171322.png);
+      width: 25px;
+    height: 25px;
+    float: left;
+    background-position: 0px 0px;
+    background-size: cover;
+    margin: 10px 20px;
+   }
+
+
+  .trabajo
+
+   {
+
+      background-image: url(../img/settings-work-tool_703e67.png);
+      width: 25px;
+    height: 25px;
+    float: left;
+    background-position: 0px 0px;
+    background-size: cover;
+    margin: 10px 20px;
+
+   }
+
+   .tiTrabajos{
+    color: #666;
+    text-align: center;
+    margin-top: 80px;
+   }
+
+   .proyecto
+
+   {
+      background-image: url(../img/code-alt-regular-224.png); /*//negra*/
+      width: 25px;
+      height: 25px;
+      float: left;
+      background-position: 0px 0px;
+      background-size: cover;
+      margin: 10px 20px;
+
+   }
+
+  .entretenimiento
+/*
+   {
+      background-image: url(../img/puzzle_183792.png); 
+      width: 25px;
+    height: 25px;
+    float: left;
+    background-position: 0px 0px;
+    background-size: cover;
+    margin: 10px 20px;
+    margin-left: 23px;
+
+   }*/
+
+.hiper:hover .texto-link
+   {
+        color:  #FFFFFF;
+
+   }
+
+   .texto-link{
+    letter-spacing: 1px;
+    color: black;
+   }
+
+   .texto-link:hover{
+    color: white;
+    letter-spacing: 1px;
+    transition: .3s;
+   }
+
+.hiper:hover .mi
+
+   {
+
+       background-image: url(../img/manager_h115893.png);
+
+   }
+
+.hiper:hover .book
+
+   {
+
+      background-image: url(../img/open-book_171322.png);
+
+   }
+
+.hiper:hover .trabajo
+
+  {
+     background-image: url(../img/settings-work-tool_70367.png);
+
+
+  }
+
+  .hiper:hover .proyecto
+
+  {
+     background-image: url(../img/codeblanco.png);
+
+
+  }
+
+/*.hiper:hover .entretenimiento
+
+ {
+     background-image: url(../img/puzzle_1883792.png);
+
+ }*/
+
+.contenedor
+   {
+        max-width: 940px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 40px;
+   }
+
+html
+   {
+     height: 100%;
+     scroll-behavior: smooth;
+   }
+
+.c-derecha
+   {
+    background-color:  #FFFFFF;
+    width: 72%;
+    float: right;
+   }
+
+.c-izquierda
+
+   {
+     width: 26%;
+     float: left;
+   }
+
+  .imagen-musica
+
+   {
+     background-image: url("../img/apple-music-escuchar-musica-offline-1.jpg");
+     width: 100%;
+     min-height: 140px;
+     background-size: cover;
+     background-position: 0px 0px;
+
+   }
+
+  .imagen-skate
+
+   {
+     background-image: url("../img/3266344540_65c9d3a9b8.jpg");
+     width: 100%;
+     min-height: 140px;
+     background-size: cover;
+     background-position: 0px 0px;
+   }
+
+  .entretenimientos
+
+  {
+     font-family: 'Coming Soon', cursive;
+
+  }
+
+.w-clearfix:before,
+    .w-clearfix:after {
+        content: " ";
+        display: table;
+    }
+
+    .w-clearfix:after {
+        clear: both;
+    }
+
+ .perfil
+
+    {
+      background-image: url(../img/imagenProfile.JPG);
+      width: 100%;
+      height: 295px;
+      background-size: cover;
+      margin-bottom: 10px;
+    }
+
+.fb
+
+  {
+
+    background-image:url(../img/face.png);
+    background-position: 0px 0px;
+    background-size: cover;
+ }
+
+
+.github{
+    background-image: url(../img/github.png);
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+.linkedin
+
+  {
+    background-image: url(../img/linkedin.png);
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+
+
+.mail
+
+{
+
+  background-image: url(../img/mail.png);
+  background-position: 0px 0px;
+    background-size: cover;
+}
+
+.fb, .github, .linkedin, .mail
+
+{
+
+
+    width:30px ;
+    height:30px;
+    margin-right: 4px;
+    margin-left: 4px;
+    float: left;
+    display: inline-block;
+
+}
+
+.social
+ {
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2271b3;
+    text-align: center;
+    margin-top: 10px;
+
+ }
+
+
+.columna1, .columna2
+
+    {
+        width: 50%;
+        float: left;
+        border:1px solid #ddd;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.columna1 li, .columna2 li
+
+    {
+        border-bottom: 1px solid #eee;
+
+        background-color: #ededed;
+
+    }
+
+.columna1 .titulo, .columna2 .titulo
+   {
+       background-color: white;
+       border-right: 1px solid #ddd;
+
+   }
+
+   .titulo-seccion{
+    font-size: 23px;
+   }
+  
+   .sobre-mi p{
+    font-size: 17px;
+   }
+
+   .TPJS{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      background :#ffcc29;
+      height: 50px;
+      color: white;
+
+    }
+    .TPNODE{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      background :#5aa469;
+      height: 50px;
+      color: white;
+
+    }
+    .TPPAG{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      background : #2271b3;
+      height: 50px;
+      color: white;
+
+    }
+
+    .PROY{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      background : #ec4646;
+      height: 50px;
+      color: white;
+
+    }
